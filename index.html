@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href='https://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Sanchez' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+</head>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+<body>
+    <!-- Menú  -->
+    <div class="topnav" id="myTopnav">
+        <div class="nav">
+            <a href="#page-inicio">Inicio</a> 
+            <a href="#page-sobremi">Sobre mi</a>  
+            <a href="#page-skills">Skills</a> 
+            <a href="#page-proyectos">Proyectos</a>
+            <a href="#page-contacto">Contacto</a>    
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+    </div>
+    <br><br>
+    <scroll-container>
+        <!--  Presentación  -->
+        <scroll-page id="page-inicio">
+            <img src="imagenes/profile.png">
+            <p class="name">Ana González</p>
+            <p class="carrera">Ing. Tecnología de Software</p>
+            <div class="linea1"> </div>
+        </scroll-page>
+    <br>
+        <scroll-page id="page-sobremi">
+            <div class="contenedor">
+                <p class="titulo">Sobre mi</p>
+                <p class="parrafos">Soy Ana González, me encanta crear y desarrollar sitios. Apasionada por la programación atutomatización de procesos y solucion de problemas, gusto por las tecnologias, videojuegos y bases de datos. Constantemente actualizada con las nuevas tecnologías que se implementan en el mercado.</p> 
+            </div>
+            
+        </scroll-page>
+        <br>    
+        <div class="linea2"> </div>
+        <br>
+        <!-- Área de skills -->
+        <scroll-page id="page-skills">
+            <div class="contenedor">
+                <p class="titulo">Skills</p>
+                    <div class="fila">
+                        <!-- Skills - HTML5 -->
+                        <div class="columna-skills">
+                            <div class="card">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                        </div>
+                        <!-- Skills -CSS3         -->
+                        <div class="columna-skills">
+                            <div class="card">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                        </div>
+                        <!-- Skills - JS -->
+                        <div class="columna-skills">
+                            <div class="card">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                        </div>
+                        <!-- Skills - Angular -->
+                        <div class="columna-skills">
+                            <div class="card">
+                                <i class="fab fa-angular"></i>
+                            </div>
+                        </div>
+                        <!-- Skills - Wordpress -->
+                        <div class="columna-skills">
+                            <div class="card">
+                                <i class="fab fa-wordpress"></i>
+                            </div>
+                        </div>
+                        <!-- Skills -Python -->
+                        <div class="columna-skills">
+                            <div class="card">
+                                <i class="fab fa-python"></i>
+                            </div>
+                        </div>
+                        <!-- Skills - PHP  -->
+                        <div class="columna-skills">
+                            <div class="card">
+                                <i class="fab fa-php"></i>
+                            </div>
+                        </div>
+                        <!-- Skills - R  -->
+                        <div class="columna-skills">
+                            <div class="card">
+                                <i class="fab fa-r-project"></i>
+                            </div>
+                        </div>
+                        <!-- Skills - Java -->
+                        <div class="columna-skills">
+                            <div class="card">
+                                <i class="fab fa-java"></i>
+                            </div>
+                        </div>
+                        <!-- Skills - C  -->
+                        <div class="columna-skills">
+                            <div class="card">
+                                <img class="skills" src="imagenes/skills/C.png">
+                            </div>
+                        </div>
+                        <!-- Skills - Figma  -->
+                        <div class="columna-skills">
+                            <div class="card">
+                                <i class="fab fa-figma"></i>
+                            </div>
+                        </div>               
+                        <!-- Skills - Firebase          -->
+                        <div class="columna-skills">
+                            <div class="card">
+                                <img class="skills" src="imagenes/skills/firebase.png">
+                            </div>
+                        </div>
+                        <!-- Skills - MySQL -->
+                        <div class="columna-skills">
+                            <div class="card">
+                                <img class="skills" src="imagenes/skills/mysql.png">
+                            </div>
+                        </div>
+                    </div>
+                    
+            </div>
+        </scroll-page>
+        <br>
+        <div class="linea2"> </div>
+        <br>
+        <!-- Área proyectos  -->
+        <scroll-page id="page-proyectos">
+            <div class="contenedor">
+                <p class="titulo">Proyectos</p>
+                <div class="fila">
+                    <!-- Proyecto-JuegoGato -->
+                    <div class="columna">
+                        <div class="card">
+                            <i class="fab fa-html5"></i>
+                            <i class="fab fa-css3-alt"></i>
+                            <i class="fab fa-js-square"></i>
+                            <img class ="img-proyecto" src="imagenes/Proyectos/programacion-juegogato.png">
+                        </div>
+                    </div>
+                    <!-- Proyecto - IMC -->
+                    <div class="columna">
+                        <div class="card">
+                            <i class="fab fa-html5"></i>
+                            <i class="fab fa-css3-alt"></i>
+                            <i class="fab fa-js-square"></i>
+                            <img class ="img-proyecto" src="imagenes/Proyectos/programacion-imc.png">
+                        </div>
+                    </div>
+                    <!-- Proyecto - Replica facebook -->
+                    <div class="columna">
+                        <div class="card">
+                            <i class="fab fa-html5"></i>
+                            <i class="fab fa-css3-alt"></i>
+                            <i class="fab fa-js-square"></i>
+                            <img class ="img-proyecto" src="imagenes/Proyectos/programacion-facebook.png">
+                        </div>
+                    </div>
+                    <!-- Proyecto - Login Spiderman  -->
+                    <div class="columna">
+                        <div class="card">
+                            <i class="fab fa-html5"></i>
+                            <i class="fab fa-css3-alt"></i>
+                            <i class="fab fa-js-square"></i>
+                            <img class ="img-proyecto" src="imagenes/Proyectos/programacion-login-web.png">
+                        </div>
+                    </div>
+                    <!-- Proyecto - Titanic  -->
+                    <div class="columna">
+                        <div class="card">
+                            <i class="fab fa-python"></i>
+                            <img class ="img-proyecto" src="imagenes/Proyectos/programación-titanic.png">
+                        </div>
+                    </div>
+                    <!-- Proyecto - GameBoy -->
+                    <div class="columna">
+                        <div class="card">
+                            <i class="fab fa-html5"></i>
+                            <i class="fab fa-css3-alt"></i>
+                            <i class="fab fa-js-square"></i>
+                            <img class ="img-proyecto" src="imagenes/Proyectos/programacion-gameboy.png">
+                        </div>
+                    </div>
+                    <!-- Proyecto - Switch -->
+                    <div class="columna">
+                        <div class="card">
+                            <i class="fab fa-html5"></i>
+                            <i class="fab fa-css3-alt"></i>
+                            <i class="fab fa-js-square"></i>
+                            <img class ="img-proyecto" src="imagenes/Proyectos/programacion-switch.png">
+                        </div>
+                    </div>
+                  </div>
+
+            </div>
+        </scroll-page>
+        <br>
+        <div class="linea2"></div>
+        <br>
+        <scroll-page id="page-contacto">
+            <!-- Área de contacto -->
+            <div class="contenedor">
+                <p class="titulo">Contacto</p>
+                <div class="contacto">
+                   <!-- Contacto - teléfono -->
+                    <div class="informacion">
+                        <i class="fas fa-mobile-alt">  </i>
+                        <p class="parrafos">81-2934-2920</p>
+                    </div>
+                    <br>
+                    <!-- Contacto - correo -->
+                    <div class="informacion">
+                        <i class="fas fa-at"></i>
+                        <p class="parrafos">anac.gzzhdz@gmail.com</p>
+                    </div>
+                    <br>
+                    <!--Contacto - ubicación-->
+                    <div class="informacion">
+                        <i class="fas fa-map-pin"></i>
+                        <p class="parrafos">San Nicolas, Nuevo León, México</p>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </scroll-page>
+        <br>
+        <div class="linea2"> </div>
+        <br>
+    </scroll-container>
+</body>
+</html>
